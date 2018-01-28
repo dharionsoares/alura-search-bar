@@ -19,19 +19,12 @@ h3 {
 
 .busca {
     height: 5px; /* valor inicial da barra de busca ao abrir o navegador */
-}
-
-.busca-ativada,
-.busca-desativada {
     transition: all 0.3s;
 }
 
-.busca-ativada {
+.busca.on {
     height: 67px; /* valor da barra de busca quando estiver visivel */
-}
-
-.busca-desativada {
-    transition-delay: 0.15s;
+    transition: all 0.15s;
 }
 
 .botao-mostra-busca {
